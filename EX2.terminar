@@ -1,0 +1,18 @@
+    #include <stdio.h>
+    #include <math.h>
+    int main() {
+    int n,p,q,op,res;
+
+    printf("Digite um numero e em seguida escolha uma operacao matematica: \nNumero: ");
+    scanf("%d",&n);
+
+    printf("Escolha uma operacao: \nP = Elevar ao quadrado.\nQ= Raiz quadrada.\n");
+    scanf("%d",&op);
+
+    if (op==p) {
+    p= sqrt(op);
+    printf("O resultado da operacao sera: %d\n",p);
+    }
+    printf("Programa encerrado.");
+    return(0);
+    }
